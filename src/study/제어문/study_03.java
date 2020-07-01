@@ -47,6 +47,7 @@ public class study_03 {
 	
 	
 	
+	
 	public void gugudan() {
 		//1)
 		Scanner sc = new Scanner(System.in);
