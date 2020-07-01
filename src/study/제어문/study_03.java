@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class study_03 {
 	
-	
+	//1)
 	//[제어문]
 	// 패키지 : study.제어문
 	// 실행용클래스,기능제공용 클래스 : study.제어문.study_03.java
@@ -26,11 +26,29 @@ public class study_03 {
 	//양수가 아닙니다. 다시 입력하세요.
 	
 	
+	
+	
+	//2) +@
+	//[제어문]
+	// 패키지 : study.제어문
+	// 실행용클래스,기능제공용 클래스 : study.제어문.study_03.java
+	//
+	//
+	//[문제]
+	//정수를 입력 받아, 입력받은 숫자까지의 단 출력.
+	// -출력예시
+	// 몇단까지 출력하시겠습니까? : 5
+	// 2단 : 2*1=2, 2*2=4 ... 2*9=18
+	// 3단 : ...
+	// 4단 : ...
+	// 5단 : 5*1=5, 5*2=10, ... 5*9=45
 
-
-	public static void main(String[] args) {
+	
+	
+	
+	
+	public void gugudan() {
 		//1)
-		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("구구단 입력");
@@ -47,5 +65,38 @@ public class study_03 {
 		}
 			
 	}
+	
+	public void gugudan2() {
+		//2)
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("몇단까지 출력하시겠습니까? : ");
+		int dan = sc.nextInt();
+		
+		for(int i = 2 ; i <= dan; i++) { //단수 출력
+			System.out.println(i + "단");
+			
+			for(int su = 1; su <10 ; su++) { //수 출력
+				if(su == 9) { // , 빼고 출력하기
+					System.out.print(i + " * " + su + " = " + (i*su));
+				}else {
+					System.out.print(i + " * " + su + " = " + (i*su) + ", " );
+				}
+			}
+			System.out.println(); // 단 끝나면(su가 9까지 출력되면) 줄바꾸기.
+		}
+		
+		
+		
+		
+	}
+		
+	
 
+	public static void main(String[] args) {
+		study_03 a = new study_03();
+		//a.gugudan();
+		a.gugudan2();
+		
+	}
 }
