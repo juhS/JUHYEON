@@ -2,12 +2,12 @@ package study.제어문;
 
 import java.util.Scanner;
 
-public class study_03 {
+public class study03 {
 	
 	//1)
 	//[제어문]
 	// 패키지 : study.제어문
-	// 실행용클래스,기능제공용 클래스 : study.제어문.study_03.java
+	// 실행용클래스,기능제공용 클래스 : study.제어문.study03.java
 	//
 	//
 	//[문제]
@@ -31,11 +31,11 @@ public class study_03 {
 	//2) +@
 	//[제어문]
 	// 패키지 : study.제어문
-	// 실행용클래스,기능제공용 클래스 : study.제어문.study_03.java
+	// 실행용클래스,기능제공용 클래스 : study.제어문.study03.java
 	//
 	//
 	//[문제]
-	//정수를 입력 받아, 입력받은 숫자까지의 단 출력.
+	//정수를 입력 받아, 입력받은 숫자까지의 단 출력(제한 구구단 / 2~9단 출력).
 	// -출력예시
 	// 몇단까지 출력하시겠습니까? : 5
 	// 2단 : 2*1=2, 2*2=4 ... 2*9=18
@@ -95,7 +95,7 @@ public class study_03 {
 	
 
 	public static void main(String[] args) {
-		study_03 a = new study_03();
+		study03 a = new study03();
 		//a.gugudan();
 		a.gugudan2();
 		
