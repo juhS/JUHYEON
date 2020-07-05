@@ -2,7 +2,7 @@ package study.연산자;
 
 import java.util.Scanner;
 
-public class study_02 {
+public class study02 {
 
 // 아래 내용을 선언
 // 키보드로 입력받은 값을 입력받아,

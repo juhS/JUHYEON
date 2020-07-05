@@ -1,6 +1,6 @@
 package study.¹è¿­;
 
-public class study_05 {
+public class study05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

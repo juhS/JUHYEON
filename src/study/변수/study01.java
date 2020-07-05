@@ -2,7 +2,7 @@ package study.변수;
 
 import java.util.Scanner;
 
-public class study_01 {
+public class study01 {
 	
 	//형변환 관련.
 	//네과목(국,영,수,과)점수를 실수형으로 입력 받은 후, 
