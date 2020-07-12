@@ -1,4 +1,4 @@
-package study.변수;
+package study.A_변수;
 
 public class studyMain {
 

@@ -1,4 +1,4 @@
-package study.제어문;
+package study.C_제어문;
 
 import java.util.Scanner;
 
@@ -56,7 +56,7 @@ public class study03 {
 		System.out.print("정수를 입력하세요 : ");
 		int dan = sc.nextInt();
 		
-		if(dan >= 2 && dan <10) {
+		if(dan >= 1 && dan <10) {
 			for(int i = 1; i <10 ; i++ ) {
 				System.out.println(dan + " * " + i + " = " + (dan*i));
 			}
@@ -96,8 +96,8 @@ public class study03 {
 
 	public static void main(String[] args) {
 		study03 a = new study03();
-		//a.gugudan();
-		a.gugudan2();
+		a.gugudan();
+		//a.gugudan2();
 		
 	}
 }

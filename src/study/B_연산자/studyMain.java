@@ -1,4 +1,4 @@
-package study.연산자;
+package study.B_연산자;
 
 public class studyMain {
 

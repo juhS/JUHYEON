@@ -1,4 +1,4 @@
-package study.연산자;
+package study.B_연산자;
 
 import java.util.Scanner;
 

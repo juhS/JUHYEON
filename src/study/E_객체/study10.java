@@ -1,4 +1,4 @@
-package study.객체;
+package study.E_객체;
 
 public class study10 {
 	
@@ -31,7 +31,7 @@ public class study10 {
 
 	int iv2 = cv;
 
-	static int cv2 = iv; // 라인 A
+	//static int cv2 = iv; // 라인 A
 
 
 
@@ -39,7 +39,7 @@ public class study10 {
 
 		System.out.println(cv);
 
-		System.out.println(iv); // 라인 B
+		//System.out.println(iv); // 라인 B
 
 	}
 
@@ -49,7 +49,7 @@ public class study10 {
 
 		System.out.println(cv); 
 
-		System.out.println(iv);  //라인 C 
+		//System.out.println(iv);  //라인 C 
 
 	} 
 
@@ -59,7 +59,7 @@ public class study10 {
 
 		staticMethod1(); 
 
-		instanceMethod1();  //라인 D 
+		//instanceMethod1();  //라인 D 
 
 	} 
 
