@@ -1,4 +1,4 @@
-package study.°´Ã¼;
+package study.E_°´Ã¼;
 
 public class study06 {
 

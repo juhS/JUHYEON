@@ -1,4 +1,4 @@
-package study.배열;
+package study.D_배열;
 
 public class study05 {
 

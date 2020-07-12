@@ -1,4 +1,5 @@
-package study.객체;
+package study.E_객체;
+
 
 //[객체-추상화,다형성]
 // 패키지 : study.객체
